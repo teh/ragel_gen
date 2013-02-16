@@ -47,7 +47,7 @@ def main():
     args = parser.parse_args()
 
     e, sm, f = get_state_machine(args.path)
-    run_random(e, sm, f)
+
     while True:
         word = ''.join(chr(x) for x in run_random(e, sm, f))
         print repr(word)
