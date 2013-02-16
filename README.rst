@@ -44,3 +44,10 @@ Here's some example output for a SMTP parser I wrote a while back:
     'RCPT tO:<..7>\r\n'
     'QUIT\r\n'
     'EHLO [58.0xfa.9]\r\n'
+
+Licence
+=======
+
+This code is public domain.
+
+
