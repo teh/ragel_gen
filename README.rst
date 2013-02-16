@@ -18,11 +18,13 @@ Usage
 First you need to generate the XML version of your FSM. E.g.:
 
 ::
+
     ragel -x smtp.ragel > smtp.xml
 
 Now you can run this tool:
 
 ::
+
     python rg.py smtp.xml
 
 Here's some example output for a SMTP parser I wrote a while back:
